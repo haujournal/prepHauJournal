@@ -1,0 +1,38 @@
+\documentclass[letterpaper,12pt]{article}
+
+\usepackage[left=2in]{geometry}
+
+\usepackage{Baskervaldx}
+%\usepackage[T1]{fontenc}
+
+\usepackage{graphicx}
+
+\usepackage{eso-pic}
+\newcommand\BackgroundPic{%
+\put(0,0){%
+\parbox[b][\paperheight]{\paperwidth}{%
+\vfill
+\centering
+\includegraphics[width=\paperwidth,height=\paperheight,%
+keepaspectratio]{eBookCover.png}%
+\vfill
+}}}
+
+\begin{document}
+\pagestyle{empty}
+\AddToShipoutPicture{\BackgroundPic}
+
+\begin{center}
+    \Huge H\textsc{au}: Journal of Ethnographic Theory
+
+    \vspace{5.5in}
+
+    \Huge Volume %vol%,
+    Number %no%
+
+    \vspace{0.5in}
+
+    \Huge %year%
+\end{center}
+
+\end{document}

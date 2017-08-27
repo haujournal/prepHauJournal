@@ -1,0 +1,302 @@
+body {
+margin-left: 2.5%;
+margin-right: 2.5%;
+margin-top: 0%;
+margin-bottom: 0%;
+}
+
+.author
+{
+margin: 10px 2em 12px 1.5em;
+font-size:large;
+text-align:right;
+}
+.editor
+{
+margin: 1px 2em 1px 1.5em;
+font-size:large;
+text-align:right;
+}
+
+/* Styles */
+a {
+	text-decoration:underline;
+	color: green;
+}
+
+hr {
+color: green;
+}
+.bold {
+font-variant: bold;
+}
+.italic {
+font-variant: italic;
+}
+.underline {
+text-decoration: underline;
+}
+.dropcaps {
+float: left;
+font-size: 4.9em;
+font-weight: normal;
+font-style: normal;
+line-height: 0.9em;
+margin: 0px 2px 0em 0em;
+padding: 0 1px 0 0;
+}
+.large {
+font-size: 200%;
+font-weight: bold;
+line-height: 0em;
+}
+.smallcaps {
+font-variant: small-caps;;
+}
+.right {
+text-align: right;
+font-size:12pt;
+}
+.left {
+text-align: left;
+font-size:12pt;
+}
+.center {
+text-align: center;
+font-size:12pt;
+}
+
+/* article */
+div.article {
+margin: 0 auto auto auto;
+padding: 0em 0em 3em 0em;
+}
+h1.chaptertitle {
+font-size: 16pt !important;
+font-weight: bold !important;
+font-style: normal !important;
+text-align: left !important;
+margin: 40px 0px 0px 1em !important;
+}
+h1.chaptersubtitle {
+font-size: 14pt !important;
+font-weight: bold !important;
+font-style: normal !important;
+text-align: left !important;
+margin: 20px 0px 0px 1.2em !important;
+}
+
+p
+{
+margin-top: 10px;
+margin-bottom: 0px;
+text-align: justify;
+}
+
+h1.head1 {
+font-size: 15pt !important;
+font-weight: bold !important;
+font-style: normal !important;
+text-align: left !important;
+margin: 20px 0px 10px 0px !important;
+}
+
+h2.head2 {
+font-size: 14pt !important;
+font-weight: bold !important;
+font-style: italic !important;
+text-align: left !important;
+margin: 20px 0px 10px 0px !important;
+}
+
+h3.head3 {
+font-size: 13pt !important;
+font-weight: bold !important;
+font-style: normal !important;
+text-align: left !important;
+margin: 20px 0px 10px 0px !important;
+}
+
+
+
+/* Images */
+p.caption {
+font-weight: normal;
+font-style: normal;
+font-size: 10pt;
+text-align: left;
+text-indent: 0px;
+margin: 10px 0px 20px 0px;
+}
+
+/* Title Page */
+
+.pagebreak
+{
+page-break-before:always;
+}
+
+.refText
+{
+font-size: 10pt;
+text-align: justify;
+font-weight: normal;
+font-style: normal;
+margin: 10px 0px 0px 2.5em;
+text-indent: -2.5em;
+}
+
+.footnote {
+font-size: 10pt;
+text-align: justify;
+font-weight: normal;
+font-style: normal;
+
+}
+
+
+.attribution {
+text-align: right;
+font-size:12pt;
+
+}
+
+div.blockquote
+{
+margin-top:2em;
+margin-left:60pt;
+text-align:right;
+}
+
+div.block
+{
+margin-left:40pt;
+margin-right:40pt;
+font-size: 12pt;
+}
+
+div.sect1
+{
+font-size:12pt;
+margin-top:3em;
+margin-bottom:1em;
+
+}
+.hanglist
+{
+text-indent: -15px;
+margin-left: 15px;
+text-align: justify;
+}
+
+.note
+{
+text-indent: -15px;
+margin-left: 15px;
+text-align: justify;
+}
+
+.indent
+{
+text-indent: 2em;
+font-size:12pt;
+}
+
+.noindent
+{
+text-indent: 0em;
+font-size:12pt;
+
+}
+.abpara{
+font-size:11pt;
+margin: 10px 10px 10px 10px;
+
+}
+
+table {
+border-collapse:collapse;
+margin-top: 1em;
+margin-bottom: 1em;
+padding: 10px;
+width:100%;
+font-size:10pt;
+}
+
+td {
+padding: 2px 1px 2px 1px;
+}
+
+th {
+padding: 2px 5px 2px 5px;
+}
+
+.border-bottom{
+border-bottom: 1px solid black;
+}
+
+sup
+{
+font-size:9pt;
+}
+
+figure {
+padding: 12px 0px 12px 0px;
+font-size:12pt;
+border: none;
+background: transparent;
+text-align: center;
+
+}
+
+#abst01{
+border-bottom:solid 2px green;
+border-top:solid 2px green;
+margin: 50px 50px 50px 80px;
+
+}
+
+.partitle
+{
+font-size: 15pt;
+font-style: normal;
+text-align: left;
+margin: 40px 0px 0px 1em;
+color: green;
+}
+
+.doi{
+font-size:8pt;
+margin: 50px 50px 50px 40px;
+border-bottom:solid 1px green;
+
+}
+
+.resume{
+font-size: 12pt;
+font-weight: bold;
+font-style: normal;
+text-align: left;
+margin: 20px 0px 10px 0px;
+
+}
+.empty{
+border-bottom:solid 2px green;
+margin: 50px 50px 50px 80px;
+
+}
+
+table.bordered {
+border: 1px solid black;
+border-collapse: collapse;
+}
+
+table.bordered th {
+border: 1px solid black;
+padding: 5px;
+}
+
+table.bordered td {
+border: 1px solid black;
+padding: 5px;
+}
